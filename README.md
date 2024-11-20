@@ -1,17 +1,17 @@
- <h1>ProTrack.ai [ATS]</h1>h1>
-Overview
+ <h1>ProTrack.ai [ATS]</h1> 
+Overview<br>
 ProTrack.ai is an AI-driven Applicant Tracking System (ATS) designed to evaluate resumes against job descriptions efficiently. The system addresses common challenges faced during recruitment by providing automated and unbiased analysis of resumes, reducing manual effort, and enhancing decision-making.
-
-Problem Statement
-Employers struggle with efficiently screening resumes against job descriptions.
-Existing ATS solutions lack comprehensive analysis, missing context or specific skills.
+<br>
+Problem Statement<br><hr>
+Employers struggle with efficiently screening resumes against job descriptions.<bbr></bbr>
+Existing ATS solutions lack comprehensive analysis, missing context or specific skills.<br>
 Manual evaluation is time-consuming and prone to bias.
 Core Features
 Resume Evaluation: Automatically evaluates resumes against job descriptions.
 Professional Analysis: Highlights strengths, weaknesses, and missing keywords.
 Match Percentage: Calculates and displays the match percentage between resumes and job descriptions.
 Report Generation: Generates detailed evaluation reports.
-Scope
+Scope: <hr>
 In Scope:
 Accepts resumes in PDF format for evaluation.
 Evaluates any job description provided by the user.
