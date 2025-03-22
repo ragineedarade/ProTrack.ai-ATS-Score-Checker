@@ -35,7 +35,7 @@ def input_pdf_setup(uploaded_file):
         pdf_parts = [
             {
                 "mime_type": "image/jpeg",
-                # encode to base64
+               
                 "data": base64.b64encode(img_byte_arr).decode()
             }
         ]
@@ -59,7 +59,7 @@ if uploaded_file is not None:
 
 submit1 = st.button("   1... Tell Me How  is My Resume")
 
-# submit2 = st.button("How Can I Improvise my Skills")
+ 
 
 submit3 = st.button("2...  Percentage matching ")
 
