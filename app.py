@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-genai.configure(api_key="AIzaSyAhxmgMVmST6HnEO3nq4zhlKEJM4nBor-k")
+genai.configure(api_key="AIzaSyCO4lF2U3tjwv5myTkqH1LUBWaWuwuedis")
 
 
 def get_gemini_response(input, pdf_cotent, prompt):
@@ -35,7 +35,7 @@ def input_pdf_setup(uploaded_file):
         pdf_parts = [
             {
                 "mime_type": "image/jpeg",
-               
+
                 "data": base64.b64encode(img_byte_arr).decode()
             }
         ]
@@ -59,7 +59,6 @@ if uploaded_file is not None:
 
 submit1 = st.button("   1... Tell Me How  is My Resume")
 
- 
 
 submit3 = st.button("2...  Percentage matching ")
 
